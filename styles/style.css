@@ -8,14 +8,14 @@ header {
   justify-content: center;
   height: 3.5rem;
   padding-top: 0.8rem;
-  background-image: url("../images/background.png");
+  background-image: url("/images/background.png");
 
 }
 body {
  padding: 3px;
  margin: 10px;
  font-family: monospace;
- background-image: url("../images/background.png");
+ background-image: url("/images/background.png");
  background-size: initial;
  background-repeat: repeat;
 }
