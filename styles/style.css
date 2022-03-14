@@ -19,6 +19,7 @@ background-repeat: repeat;
 }
 header img {
 justify-content: center;
+
 }
 
 section {
@@ -63,4 +64,7 @@ p {
 }
 
 footer {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
 }
