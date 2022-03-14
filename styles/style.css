@@ -14,8 +14,8 @@ body {
 
 header {
  display: grid;
- grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
- padding-top: 0.8rem;
+ padding-top: 1rem;
+ width: 60%;
 }
 
 section {
@@ -23,33 +23,22 @@ section {
  grid-template-columns: repeat(3,1fr);
  gap: 10px;
  grid-auto-rows: minmax(200px, auto);
- padding-top:150px;
+ padding-top:50px;
+ padding-bottom: 30px;
 }
 
 .one {
  grid-column: 1;
  grid-row: 1;
-}
- .two {
-   grid-column: 2;
-   grid-row: 1;
-}
-   .three {
-     grid-column: 3;
-     grid-row: 1;
-}
-     .four {
-       grid-column: 1;
-       grid-row: 2;
-}
-       .five {
-         grid-column: 2;
-         grid-row: 2;
 
 }
-         .six {
-           grid-column: 3;
-           grid-row: 2;
+ .two {
+   grid-column: 1;
+   grid-row:2;
+}
+   .three {
+     grid-column: 1;
+     grid-row: 3;
 }
 
 p {
