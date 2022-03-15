@@ -1,9 +1,4 @@
 /*heres a comment*/
-html {
- font-size: 100%;
- background-image:url("/images/background.png");
-}
-
 body {
  padding: 3px;
  margin: 10px;
@@ -15,10 +10,10 @@ body {
 header {
  display: grid;
  padding-top: 1rem;
- width: 60%;
+ width: 50%;
 }
 
-section {
+.wrapper {
  display: grid;
  grid-template-columns: repeat(3,1fr);
  gap: 10px;
@@ -40,6 +35,9 @@ section {
      grid-column: 1;
      grid-row: 3;
 }
+.popup {
+
+}
 
 p {
  border: solid;
@@ -49,4 +47,5 @@ p {
 
 footer {
 display: grid;
+
 }
