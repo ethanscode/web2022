@@ -13,8 +13,11 @@ body {
 header {
  display: grid;
  padding-top: 1rem;
+ height: 1em;
 }
+header img {
 
+}
 .wrapper {
  display: grid;
  grid-template-columns: repeat(3,1fr);
@@ -43,11 +46,11 @@ header {
      border: none;
 }
 .popup {
-  
+
 }
 
 p {
- border: solid;
+ border: none;
  font-size: 1rem;
  padding: 10rem;
 }
