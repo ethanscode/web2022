@@ -1,4 +1,7 @@
 /*heres a comment*/
+html {
+  font-size: 100%;
+}
 body {
  padding: 3px;
  margin: 10px;
@@ -10,7 +13,6 @@ body {
 header {
  display: grid;
  padding-top: 1rem;
- width: 50%;
 }
 
 .wrapper {
@@ -21,22 +23,27 @@ header {
  padding-top:50px;
  padding-bottom: 30px;
 }
+ #primary {
 
+}
 .one {
  grid-column: 1;
  grid-row: 1;
+ border: none;
 
 }
  .two {
    grid-column: 1;
    grid-row:2;
+   border: none;
 }
    .three {
      grid-column: 1;
      grid-row: 3;
+     border: none;
 }
 .popup {
-
+  
 }
 
 p {
