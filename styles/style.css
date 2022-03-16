@@ -19,8 +19,8 @@ header img {
 height: 100%
 }
 section {
-  padding-top: 90px;
-
+  display: grid;
+  justify-content: center;
 
 }
 .wrapper {
@@ -58,17 +58,25 @@ display: grid;
         border: none;
         padding-top: 157px;
 }
-
-article {
-display: grid;
-justify-content: center;
-
-
-}
-section {
+#cred {
   display: grid;
-  justify-content: center;
+  grid-template-columns: repeat(4,1fr);
+  grid-auto-rows: minmax(200px, auto);
+
+
 }
+.edu {
+  display: grid;
+grid-column: 1;
+grid-row: 1;
+
+}
+.cre {
+  display: grid;
+grid-column: 2;
+grid-row: 1;
+}
+
 p {
  border: none;
  font-size: 1rem;
@@ -77,5 +85,5 @@ p {
 
 footer {
 display: grid;
-justify-content: end;
+justify-content: right;
 }
