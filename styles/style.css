@@ -37,19 +37,24 @@ display: grid;
  grid-column: 2;
  grid-row: 1;
  border: none;
+ padding-top: 145px;
 
 }
  .two {
    grid-column: 1;
    grid-row: 1;
    border: none;
+
 }
    .three {
-     grid-column: 1;
-     grid-row: 3;
+     grid-column: 3;
+     grid-row: 1;
      border: none;
 }
-
+section {
+  display: grid;
+  justify-content: center;
+}
 p {
  border: none;
  font-size: 1rem;
