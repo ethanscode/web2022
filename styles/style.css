@@ -1,6 +1,6 @@
 /*heres a comment*/
 html {
-  font-size: 100%;
+ font-size: 100%;
 }
 body {
  padding: 3px;
@@ -11,16 +11,16 @@ body {
 }
 
 header {
-  display: grid;
-  padding-top: 10px;
-  justify-content: left;
+ display: grid;
+ padding-top: 10px;
+ justify-content: left;
 }
 header img {
 height: 100%
 }
 section {
-  display: grid;
-  justify-content: center;
+ display: grid;
+ justify-content: center;
 
 }
 .wrapper {
@@ -30,8 +30,8 @@ section {
  padding-top:10px;
  padding-bottom: 1px;
 }
- #primary {
-display: grid;
+#primary {
+ display: grid;
 }
 .one {
  grid-column: 2;
@@ -82,8 +82,29 @@ p {
  font-size: 1rem;
  padding: 10rem;
 }
+table {
+  border-collapse: collapse;
+}
+
+caption {
+  font-size: 1rem;
+  text-shadow: 3px 3px 3px black;
+  padding: 3px;
+}
+thead {
+  background-color: white;
+  color: black;
+}
+  th, td {
+  padding: 5px, 10px;
+  text-align: center;
+  }
+.rowhover:hover {
+  background-color: pink;
+  color: blue;
+}
 
 footer {
-display: grid;
-justify-content: right;
+ display: grid;
+ justify-content: right;
 }
