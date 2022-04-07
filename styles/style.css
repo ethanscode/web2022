@@ -11,9 +11,9 @@ body {
 }
 
 header {
- display: grid;
+ display: flex;
  padding-top: 10px;
- justify-content: left;
+ justify-content: center;
 }
 header img {
 height: 100%
@@ -53,12 +53,7 @@ section {
      border: none;
      padding-top: 144px;
 }
-      .four {
-        grid-column: 4;
-        grid-row: 1;
-        border: none;
-        padding-top: 157px;
-}
+
 #cred {
   display: grid;
   grid-template-columns: repeat(4,1fr);
