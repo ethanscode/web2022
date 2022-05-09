@@ -1,1 +1,1 @@
-Repo for my personal site: www.ethanscode.net
+Repo for ICT420 website project
